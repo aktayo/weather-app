@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 100%;
+}
+.navbar{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.searchComp{
+  display: flex;
+}
+input{
+  width: 200px;
+  height: 27px;
+  border-radius: 5px;
+  margin-top: 0px;
+  border: 1px solid #ccc;
+}
+.searchIcon{
+  margin-left: 8px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.topbox{
+  display:flex;
+  
+  margin: 5px;
+}
+.display{
+  background-image: linear-gradient(to bottom, rgb(214, 216, 226),rgb(30, 30, 75));
+  border-radius: 6px;
+  margin: 10px;
+  width: 52%;
+  padding: 6px;
+  color: hsla(249, 23%, 94%, 0.829);
+  height: 290px;
+}
+.map{
+  width: 42%;
+  border-radius: 6px;
+  margin: 12px;
+  background-color: rgb(160, 160, 196);
+}
+.envelop > span{
+  padding: 25px;
+}
+.time{
+  text-align: center;
+}
+.temperature{
+  text-align: right;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-right: 35px;
+ 
+}
+.imageCont{
+  display: flex;
+  justify-content: space-around;
+}
+.imageCont > span{
+  margin-top: 16px;
+  margin-right: 14px;
+}
+.png{
+  display: grid;
+}
+.atmData{
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+.forecast{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.days{
+  display: grid;
+  width: 30cm;
+  height: 60px;
+  margin: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  color: #f0ecf8;
+  background-color: rgb(68, 68, 92);
+}
+.hourly{
+  height: 200px;
+  margin-top: 10px;
+  width: 98%;
+  background-color: rgb(61, 46, 75);
+  border-radius: 5px;
+  padding: 8px;
+}
